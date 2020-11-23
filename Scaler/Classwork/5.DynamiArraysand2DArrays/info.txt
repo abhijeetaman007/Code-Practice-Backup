@@ -1,0 +1,2 @@
+*Working of Vectors and how concept of doubling size by creating new array  gives Amortized O(N) time complexity for N elements
+*Problem of 2D Array based on implementation like printing 2D array in spiral form

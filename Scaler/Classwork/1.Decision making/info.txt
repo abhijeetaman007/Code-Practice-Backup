@@ -1,0 +1,2 @@
+->Find Square root using binary search
+->Find exponents or powers using binary search kind of approach also called as faster exponentiation

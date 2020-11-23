@@ -1,0 +1,10 @@
+class t
+{
+	public static void main(String args[])
+	{
+		String s3 ="Mangalore";
+		String s4="Mangalore";
+		System.out.println(s3==s4);
+		System.out.println(s3.equals(s4));
+	}
+}

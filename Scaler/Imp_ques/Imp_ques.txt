@@ -1,0 +1,3 @@
+Square Root(Binary Root)
+Binary Exponentiation
+Modulus Operaters+care with-ve

@@ -1,0 +1,15 @@
+                                  Arrays
+
+
+->Given an array of size n with n-1 elements sorted.Now sort whole array  // Bubbling/search postion of last element and then insert by moving each element ahead
+->Reverse Array with space complexity O(1)  							 //Can be done in O(N) time
+->Reverse SubArray 														//Can be done in O(1) like above considering subarray and reversing
+->Rotate the array in anticlock wise direction in k steps without an extra array in O(N)
+              =>Best approach is to 123|45 we can reverse each partion and then whole array would be reversed
+->How many elements which have both numbers strictly greater and smaller in O(N)
+->Arrays Numbered from 1 to N except 1 element all are present Find missing number in O(N) time and O(1) space;
+			  =>Using a boolean Array can be an option but it takes extra space
+			  =>So we can use maths and find sum till N and then sum of given array and find differnce.
+->Arrat size N with one number missing and one repeating find both repeating and missing number
+			  =>Using count array is option which costs space
+			  =>Best will to use maths again and get one equation as in above ques and other equation form squaring the sum equations

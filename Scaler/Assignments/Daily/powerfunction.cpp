@@ -18,6 +18,6 @@ int power(int x, unsigned int y)
 
 int main(){
 	int x=2;
-	int y=10;
+	int y=5;
 	cout<<power(x,y);
 }

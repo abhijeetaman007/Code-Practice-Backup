@@ -30,5 +30,10 @@ int fun(int a, int b){
 }
 
 int main(){
-    cout<<fun(3, 3);
+  // string s = "graphicaluserinterface";
+  // cout<<s.size()<<endl;	
+	char c = 127;
+		c++;
+		cout<<c<<endl; 
+
 }

@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-int power(int x, unsigned int y) 
+long long int power(long long int x, long long int y) 
 { 
-	int res = 1; 
+	long long int res = 1; 
 
 	while (y > 0) 
 	{ 
@@ -18,6 +18,6 @@ int power(int x, unsigned int y)
 
 int main(){
 	int x=2;
-	int y=5;
+	int y=31;
 	cout<<power(x,y);
 }

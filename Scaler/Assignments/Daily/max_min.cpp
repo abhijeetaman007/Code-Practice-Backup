@@ -29,7 +29,7 @@ vector<int> greaterleft(vector<int> &v)
 	stack<int> s;
 	int n=v.size();
 	vector<int> gl(n,-1);
-	for(int i=n;i>=0;i--)
+	for(int i=n-1;i>=0;i--)
 	{
 		if(s.empty() || v[i]<v[s.top()])
 		{
@@ -79,7 +79,7 @@ vector<int> lesserleft(vector<int> &v)
 	stack<int> s;
 	int n=v.size();
 	vector<int> ll(n,-1);
-	for(int i=n;i>=0;i--)
+	for(int i=n-1;i>=0;i--)
 	{
 		if(s.empty() || v[i]>v[s.top()])
 		{
@@ -114,6 +114,55 @@ int main()
 	long long int l,r,ans=0;
 	long long int max=0;
 	long long int min=0;
+
+		// for(int i=0;i<gr.size();i++)
+		// {
+		// 	cout<<v[gr[i]]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<gr.size();i++)
+		// {
+		// 	cout<<gr[i]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<gl.size();i++)
+		// {
+		// 	cout<<v[gl[i]]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<gr.size();i++)
+		// {
+		// 	cout<<gl[i]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<lr.size();i++)
+		// {
+		// 	cout<<v[lr[i]]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<lr.size();i++)
+		// {
+		// 	cout<<lr[i]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<ll.size();i++)
+		// {
+		// 	cout<<v[ll[i]]<<" ";
+		// }
+		// cout<<endl;
+		// for(int i=0;i<lr.size();i++)
+		// {
+		// 	cout<<ll[i]<<" ";
+		// }
+
+
+
+
+
+
+
+
+
 	for(int i=0;i<n;i++)
 	{
 		l=ll[i];
@@ -131,7 +180,7 @@ int main()
 		max=max%mod;
 	}
 	ans=max-min;
-	cout<<ans<<endl;
+	cout<<"Final ans is "<<ans<<endl;
 }
 
 // for(int i=0;i<gr.size();i++)

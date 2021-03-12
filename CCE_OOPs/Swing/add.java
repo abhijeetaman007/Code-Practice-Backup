@@ -6,6 +6,7 @@ class add
 	{
 		JFrame f= new JFrame("Calculator");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		System.out.println(JFrame.EXIT_ON_CLOSE);
 		f.setSize(300,300);
 		f.setVisible(true);
 		JLabel l= new JLabel("Press Button to Add");
@@ -34,6 +35,10 @@ class add
 		l2.setBounds(50,70,150,10);
 		t1.setBounds(190,50,50,15);
 		t2.setBounds(190,70,50,15);
+
+		JCheckBox cb=new JCheckBox("Check");
+		cb.setBounds(100,90,90,50);
+
 		l.setBounds(100,100,150,50);
 		b.setBounds(130,150,75,30);
 		
@@ -45,11 +50,27 @@ class add
 		f.add(t2);
 		f.add(l);
 		// f.add(b);
+
+		f.add(cb);
 		p.add(b);
 		p.add(b1);
 		p.add(b2);
 		p.add(b3);
 		f.add(p);
+
+		cb.addItemListener(new ItemListener(){
+			public void itemStateChanged(ItemEvent ie)
+			{
+				if(cb.isSelected())
+				{
+					l.setText("Checked");
+				}
+
+			}
+		});
+
+
+
 
 		b.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e)

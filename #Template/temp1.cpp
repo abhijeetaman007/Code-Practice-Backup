@@ -50,7 +50,7 @@ void solve()
 int main()
 {
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
+    freopen("/home/abhijeet/AMAN/Code/program_cpp/Scaler/Assignments/Daily/input/input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
     #endif
     fastio();

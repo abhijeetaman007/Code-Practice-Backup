@@ -1,9 +1,0 @@
-Problems on Arrays--29/08/2020
-
-*Array is given find sum for a subset starting from L ending at R for different queries - Best solution is to take prefix sum (O(N) opertaion) and then answering to each query is O(1) operation. It takes O(N) auxilary space
-
-*** Another very important concept based on prefix sum-- There are N NGOSs and Q philanthropists who donates some amount to NGOs from one L to R end Now Find which NGO gets max donation --Soln-Best-- is to use prefix sum(refer notes for full explaination)
-also can refer->(Array Manipulation)
-
-**Concept of prefix max and suffix max....prefix max is max till that element so if we move to next element then we have to compare that element and prefix max and then prefix max is updated similar is the case for suffix max start from last and then do same.---Its O(N) of solution better than brute force O(N^2).
-
